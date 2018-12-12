@@ -453,6 +453,9 @@ declare namespace R {
         add(a: number): (b: number) => number;
         add(a: string): (b: string) => string;
 
+        then(a: any): any;
+        otherwise(a: any): any;
+
         /**
          * Creates a new list iteration function from an existing one by adding two new parameters to its callback
          * function: the current index, and the entire list.
